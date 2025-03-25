@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// new
 // Function to define precedence of operators
 int precedence(char op) {
     if (op == '+' || op == '-') return 1;
@@ -109,7 +108,7 @@ int evaluatePrefix(string prefix) {
     return st.top();
 }
 
-// sochne ko gaya toh m toh tere piche holiyaa suit patila jutti amritsariya 
+// Driver function
 int main() {
     string infix = "(3+5)*2";
     
